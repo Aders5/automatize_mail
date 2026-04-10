@@ -1,12 +1,12 @@
 <x-mail::message>
-# Introduction
+# Correo Automatizado: Ejemplo.
 
-The body of your message.
+Mensaje de ejemplo.
 
 <x-mail::button :url="''">
-Button Text
+Boton sin conexion
 </x-mail::button>
 
-Thanks,<br>
+Adios,<br>
 {{ config('app.name') }}
 </x-mail::message>

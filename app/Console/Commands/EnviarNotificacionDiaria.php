@@ -15,7 +15,7 @@ class EnviarNotificacionDiaria extends Command
      */
     public function handle()
     {
-    $email = 'tu-correo-destino@gmail.com';
+    $email = 'zertucheaaron9@gmail.com'; //email del destinatario
     \Illuminate\Support\Facades\Mail::to($email)->send(new \App\Mail\NotificacionBot());
     
     $this->info('Correo enviado con éxito a las ' . now());
